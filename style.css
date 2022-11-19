@@ -1,0 +1,232 @@
+@font-face {
+  src: url("fonts/OpenSans-Bold.ttf");
+  font-family: "OpenSans-Bold";
+}
+
+@font-face {
+  src: url("fonts/OpenSans-Light.ttf");
+  font-family: "OpenSans-Light";
+}
+
+@font-face {
+  src: url("fonts/OpenSans-Regular.ttf");
+  font-family: "OpenSans-Regular";
+}
+
+.hide {
+  display: none !important;
+}
+
+#custom-btn {
+  background-color: #8824cd;
+  color: #fff;
+  padding: 15px 50px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: "OpenSans-Bold";
+  border-radius: 40px;
+  font-size: 15px;
+  margin: 10px 0;
+  display: inline-block;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+h4 {
+  text-transform: uppercase;
+}
+
+footer ul,
+.copyright-area ul {
+  list-style: none;
+  padding: 5px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: yellow;
+}
+
+.hand-writing-left img,
+.hand-writing-right img {
+  width: 100%;
+}
+
+/* Header Area Start */
+
+.navbar-toggler {
+	background-color: #fff;
+}
+
+.navbar-toggler:focus {
+	box-shadow: none;
+}
+
+h1 {
+  font-family: "OpenSans-Regular";
+  font-size: 45px;
+  line-height: 65px;
+}
+
+.header-area {
+  background-image: url("img/header-bg.png");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.custom-nav li a {
+  font-family: "OpenSans-Regular";
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 30px;
+  margin-bottom: -25px;
+  border-bottom: 2px solid transparent;
+}
+
+.custom-nav li:hover a,#active {
+  border-bottom: 2px solid #fff;
+  color: #f00 !important;
+}
+
+#search-input {
+  padding: 10px 20px;
+  text-transform: capitalize;
+  border-radius: 30px;
+  border: none;
+  margin-top: 15px;
+  position: relative;
+}
+
+#search-input:focus {
+  outline: none;
+}
+
+i.fas {
+  position: absolute;
+  right: 25px;
+  top: 35px;
+  color: #999;
+}
+
+.highlight-title {
+  padding: 200px 0;
+  text-align: right;
+}
+
+hr {
+  color: #999;
+}
+
+/* Header Area End */
+
+/* Services Area Start */
+
+.services-area {
+  background-color: #2e3b4e;
+  color: #fff;
+  padding: 50px 100px;
+}
+
+/* Services Area End */
+
+/* Wicked Area Start */
+
+.wicked-area {
+  background-image: url(img/wicked-img.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px;
+  text-align: center;
+  color: #fff;
+}
+
+.wicked-area #custom-btn {
+  background-color: #fff;
+  color: #e7526b;
+}
+
+/* Wicked Area End */
+
+/* Hand Writing Area Start */
+
+.hand-writing-left {
+  background-color: #fff;
+  color: #405265;
+}
+
+/* Hand Writing Area End */
+
+/* Experience Area Start */
+
+.experience-area {
+  background-image: url(img/experience-img.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px;
+  text-align: center;
+  color: #fff;
+}
+
+.experience-area p {
+  opacity: 0.5;
+}
+
+/* Experience Area End */
+
+/* Food Area Start */
+
+.food-area {
+  background-image: url(img/food-img.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 300px 0 50px 0;
+  color: #fff;
+}
+
+.food-area #custom-btn {
+  background-color: transparent;
+  padding: 5px 10px;
+  border: 1px solid #fff;
+  font-family: "OpenSans-Light";
+}
+
+.food-area h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+/* Food Area End */
+
+/* Hand Writing Right Area Start */
+
+.hand-writing-right {
+  background-color: #fff;
+  color: #405265;
+}
+
+/* Hand Writing Right Area End */
+
+/* Footer Area Start */
+
+.footer-area {
+  background-color: #e7526b;
+  padding: 100px;
+  color: #fff;
+}
+
+/* Footer Area End */

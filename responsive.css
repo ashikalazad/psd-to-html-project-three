@@ -1,0 +1,36 @@
+@media all and (max-width: 992px) {
+  .custom-nav li a {
+    padding-left: 0px;
+    border-bottom: none;
+  }
+
+  .custom-nav li:hover a,#active {
+    border-bottom: none;
+  }
+}
+@media all and (max-width: 500px) {
+  h1 {
+    font-size: 31px;
+  }
+
+  .highlight-title {
+    padding: 100px 0;
+    text-align: right;
+  }
+
+  .services-area {
+    padding: 50px;
+  }
+
+  .wicked-area {
+    padding: 50px;
+  }
+
+  .experience-area {
+    padding: 100px 50px;
+  }
+
+  .food-area h2 {
+    font-size: 30px;
+  }
+}
